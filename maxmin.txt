@@ -1,0 +1,7 @@
+...Printing the maximum and the minimum element in an array...
+In this program we are going to find out the maximum and the minimum elmemnt in an array.
+Here we have to intialize the  values of both as if we does not do that then the compiler
+gives them an garbage value.
+Here we use an built in function named as for manNo and minNo.
+For this we used an new header file named as climits.with the help of for loops we
+can easily done this program.

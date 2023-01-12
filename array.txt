@@ -1,0 +1,4 @@
+...Array in c++...
+This is the most basic program of array n which the user can intialize the array by itself or
+Here,we use  two for loops, one for input the array elememts into the computer
+and second one is used for the giving output on the screen.
