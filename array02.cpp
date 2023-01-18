@@ -1,0 +1,3 @@
+...Sum of all Subarrays...
+given an array a[] of size n.output sum of each sub array of the given array.
+In these program we are going to print out the sum of the sub arrays by simply using the for loops.

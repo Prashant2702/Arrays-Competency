@@ -1,0 +1,4 @@
+...Max till i or prefix maximum...
+Given an array a[] of size n.for every i from 0 to n-1 output max(a[0],a[1],....a[i])
+In these program we are going to print out the 
+maximum in the array.we can done this by simply applying the for loops.
