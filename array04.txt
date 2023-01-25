@@ -1,0 +1,45 @@
+...Record Breaker...
+This question is also one of the qusetion of the Google Kickstart contest.The Problem is  that:
+
+Isyana is given the number of visitors at her local theme park on N consecutive
+days. The number of visitors on the i-th day is Vi
+
+. A day is record breaking if it
+
+satisfies both of the following conditions:
+â— The number of visitors on the day is strictly larger than the number of
+visitors on each of the previous days.
+â— Either it is the last day, or the number of visitors on the day is strictly larger
+than the number of visitors on the following day.
+Note that the very first day could be a record breaking day!
+Please help Isyana find out the number of record breaking days.
+
+Constraints Analysis
+
+1 sec = 108 operations
+20 sec = 2x109 operations
+
+Brute Force Approach
+Iterate over all the elements and check if it is record breaking day or not.
+Note: To check if a[i] is a record breaking day, we have to iterate over a[0],
+a[1],...., a[i-1].
+
+Time complexity for this operation: O(n)
+Overall Time Complexity: O(n2
+)
+Optimised Approach
+Intuition: If we can optimise step (1), then we can optimise our overall solution.
+For step (1): We need to check if a[i] > { a[i-1], a[i-2],..., a[0] }, which is same as
+
+a[i] > max(a[i-1], a[i-2],..., a[0])
+
+For this, we will keep a variable mx, which will store the maximum value till a[i].
+Then we just need to check,
+
+a[i] > mx
+a[i] > a[i+1] , { if i+1 < n }
+and update mx, mx = max(mx, a[i])
+
+So step (1) time complexity reduces to O(1).
+
+Overall time complexity: O(n).
