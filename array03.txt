@@ -1,0 +1,22 @@
+...Longest Arithematic Subarray...
+An arithmetic array is an array that contains at least two integers and the
+differences between consecutive integers are equal. For example, [9, 10], [3, 3, 3],
+and [9, 7, 5, 3] are arithmetic arrays, while [1, 3, 3, 7], [2, 1, 2], and [1, 2, 4] are
+not arithmetic arrays.
+This Question is one of the tricky question which was asked in Google Kickstart
+contest.
+
+Steps
+1. While iterating in the array we need to maintain the following variables,
+a. Previous common difference (pd) - To compare it with current
+common difference (a[i] - a[i-1]).
+b. Current arithmetic subarray length (curr) - It denotes the arithmetic
+subarray length including a[i].
+c. Maximum arithmetic subarray length (ans) - It denotes the max.
+Arithmetic subarray length till a[i].
+2. While iterating, there will be two cases,
+a. pd = a[i] - a[i-1]
+i. Increase curr by 1
+ii. ans = max(ans, curr)
+
+3. After loop ends, output the answer. (stored in ans variable).
