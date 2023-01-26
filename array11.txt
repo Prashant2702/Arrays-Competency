@@ -1,0 +1,6 @@
+...Kadane's algorithim...
+we can done this using the approuch as follows:
+Idea: Start taking the sum of the array, as soon as it gets negative, discard
+the current subarray, and start a new sum.
+Time Complexity: O(N)
+Space Complexity: O(1)
