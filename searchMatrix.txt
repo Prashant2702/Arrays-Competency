@@ -1,0 +1,5 @@
+:Searching in a matrix:
+
+Problem: We have to find if value x is present in the 2D array.
+1. While traversing in the 2D matrix, just we have to put one if statement which
+checks if(a[i][j] == x) , then x is present otherwise not.
