@@ -1,0 +1,8 @@
+...Maximum Sum Subarray Array...
+Prefix Sum Technique:
+Idea: For each subarray arr[i..j], calculate its sum. Using prefix sum can
+reduce time to calculate the sum of arr[i..j] to O(1)
+Time Complexity: O(N2
+)
+Space Complexity: O(N)
+we can find the maximum sum of the sub array using above logic.
