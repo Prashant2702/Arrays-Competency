@@ -1,0 +1,4 @@
+...Largest word in a sentence...
+Here,we are going to find the largest word in a sentence having the maximum length.
+we also use the getline function for input the values and also ignore() function for removing the 
+buffer from the code.Here, we also used while and if - else loop.
